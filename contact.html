@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contact.css"> 
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <img src="Imagens/Logo.png.png" alt="Logo da Burguer Art" class="logo">
+            <h1>Burguer Art</h1>
+            <p>Entre em contato conosco.</p>
+        </div>
+    </header>
+
+    <nav id="menu-h">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="menu.html">Cardápio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li><a href="cart.html">Carrinho</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container">
+            <h2>Entre em Contato</h2>
+            <p>Preencha o formulário abaixo ou utilize as informações de contato para nos enviar uma mensagem.</p>
+        </section>
+
+        <section class="container">
+            <h2>Formulário de Contato</h2>
+            <form action="formulario.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+        <section class="container">
+            <h2>Informações de Contato</h2>
+            <p>Se preferir, você pode entrar em contato conosco utilizando as informações abaixo:</p>
+            <p>Telefone: 2482-8249</p>
+            <p>E-mail: burguerart@gmail.com</p>
+            <p>Endereço: Rua das Delícias, 1234</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="column">
+            <h3>Burguer Art</h3>
+            <p>Conheça mais sobre a Burguer Art, a melhor hamburgueria do Rio, oferecendo sabores incríveis e uma experiência única.</p>
+        </div>
+
+        <div class="column">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="menu.html">Cardápio</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h3>Contato</h3>
+            <p>Endereço: Rua das Delícias, 1234<br>
+               Telefone: 2482-8249<br>
+               E-mail: burguerart@gmail.com</p>
+        </div>
+
+<div class="copyright">
+    <p>&copy; 2023 Burguer Art - Todos os direitos reservados.</p>
+</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
